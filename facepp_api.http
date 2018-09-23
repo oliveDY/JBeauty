@@ -1,0 +1,9 @@
+POST https://api-us.faceplusplus.com/facepp/v3/detect
+content-type: application/json
+
+{
+    "api_key": "kmDzTCyai5IOa6Mk97RSFbf5pKPh0c82",
+    "api_secret": "25zuvL8rRD1G-4PLrGQ5hD_JeBWnoym6",
+    "image_file": "avatar_formal.jpeg",
+    "return_landmark":1
+}
